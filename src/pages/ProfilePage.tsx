@@ -93,7 +93,7 @@ const ProfilePage = ({
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email</FormLabel>
+                <FormLabel>Email*</FormLabel>
                 <FormControl>
                   <Input placeholder="Input your email" {...field} />
                 </FormControl>
@@ -106,7 +106,7 @@ const ProfilePage = ({
             name="phone"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Phone Number</FormLabel>
+                <FormLabel>Phone Number*</FormLabel>
                 <FormControl>
                   <Input placeholder="Input your phone number" {...field} />
                 </FormControl>
@@ -132,7 +132,7 @@ const ProfilePage = ({
             name="confirmPassword"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Confirm Password</FormLabel>
+                <FormLabel>Confirm Password*</FormLabel>
                 <FormControl>
                   <Input placeholder="Confrim Your Password" {...field} />
                 </FormControl>
