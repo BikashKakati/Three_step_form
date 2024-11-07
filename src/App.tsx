@@ -24,7 +24,7 @@ const App = () => {
       </div>
       <div className="max-w-[55rem] mx-auto flex-1 h-full w-full z-10">
       <Header/>
-        <div className="bg-blue-200 min-h-[30rem] flex flex-col items-center justify-start w-full rounded-lg shadow-even mb-24">
+        <div className="bg-blue-200 min-h-[30rem] flex flex-col items-center justify-start w-full rounded-lg shadow-even mb-[8rem]">
           <PaginationContainer currentPage={currentPage}>
             <ProfilePage
               goToNextPage={goToNextPage}
